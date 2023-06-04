@@ -59,13 +59,15 @@ table {
 
 body{
     background: black;
+    font-family: 'Noto Sans TC';
 }
 
 
 .home{
-    width: 1926px;
-    padding-left: 312px;
-    padding-right: 312px;
+
+    max-width:1320px;
+    padding:0 12px;
+    margin:0 auto;
     background: #000;
     display: flex;
     justify-content: center;
@@ -77,7 +79,6 @@ body{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 1296px;
     border-bottom-width: 1px;
     border-bottom-style: solid;
     border-bottom-color: white;
@@ -106,6 +107,10 @@ body{
     font-weight: bold;
 }
 
+.menu li a:hover{
+    color:rgb(106, 21, 225);
+}
+
 
 .title{
     color:white;
@@ -113,15 +118,19 @@ body{
     font-size: 120px;
     font-weight: 900;
     margin-bottom: 30px;
-    width: 1296px;
+
 }
 
 .botton{
-    width: 1296px;  
+
     margin-top: 40px;
     background: #000;
     font-weight: 900; 
       
+}
+
+.botton a:hover{
+    background:rgb(106, 21, 225);
 }
 
 .botton a{
@@ -145,7 +154,7 @@ body{
 }
 
 .animation{
-    width: 1296px;
+
     padding-bottom: 20px;
     display: flex;
     flex-direction: row-reverse;
@@ -153,12 +162,11 @@ body{
 
 .container{
     margin-top: 130px;
-    width: 1296px;
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
-.container h3{
+.container h1{
     width: 930px;
     color:white;
     font-size: 32px;
@@ -177,7 +185,7 @@ body{
 }
 
 .content{
-    width: 1296px;
+
     display: flex;
     flex-wrap: wrap;
     margin-bottom: 150px;
@@ -208,7 +216,7 @@ body{
     padding-bottom: 25px;
 }
 
-.item h4{
+.item h2{
     font-size: 32px;
     font-weight: 900;
     padding-bottom: 25px;
@@ -220,7 +228,7 @@ body{
 }
 
 .footer{
-    width: 1296px;
+    padding-right: 10px;
     color: white;
     font-family: 'Noto Sans TC';
     font-weight: 900;
@@ -229,7 +237,7 @@ body{
 }
 
 
-.footer h5{
+.footer h1{
     margin-bottom: 80px;
 }
 
@@ -248,7 +256,8 @@ body{
 
 .main_eva{
     display: flex;
-    width: 1296px;
+    margin-left: 10px;
+
 
 }
 
@@ -320,9 +329,10 @@ body{
 }
 
 .shop{
-    width: 1608px;
+    max-width:1320px;
+    padding:0 12px;
+    margin:0 auto;
     height: 1918px;
-    padding-left: 312px;
     background:white;
     border-radius: 160px;
     display: flex;
@@ -330,7 +340,6 @@ body{
 }
 
 .shop h1{
-    width: 1296px;
     height: 96px;
     font-size: 80px;
     font-weight: 900;
@@ -356,7 +365,7 @@ body{
 
 
 .commodity{
-    width: 1296px;
+
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -366,7 +375,18 @@ body{
     
 }
 
-.commodity p {
+.commodity button{
+    width: 132px;
+    height: 64px;
+    font-weight: 400;
+    border:1px solid rgb(240, 237, 237);
+    background: white;
+    line-height: 60px;
+    text-align: center;
+    border-radius: 16px;
+}
+
+/*.commodity p {
     width: 132px;
     height: 64px;
     font-weight: 400;
@@ -374,7 +394,7 @@ body{
     line-height: 60px;
     text-align: center;
     border-radius: 16px;
-}
+}*/
 
 
 .commodity p img{
@@ -413,8 +433,7 @@ body{
 
 
   .pd{
-    width: 416px;
-    margin-right:24px;
+    margin-right:18px;
     margin-bottom: 24px;
     border-radius:10px 10px 10px 10px;
     border:1px solid #F2F2F2;
@@ -424,6 +443,8 @@ body{
 
     border-radius:10px 10px 0px 0px;
   }
+
+
 
   .pd1 h3{
     font-weight: 900;
@@ -473,6 +494,7 @@ body{
     padding-bottom: 24px;
     display: flex;
     justify-content: space-between;
+    align-items: center;
     padding-right: 20px;
     padding-left: 20px;
     border:1px solid #F2F2F2;
@@ -484,7 +506,7 @@ body{
     width: 20px;
     height: 20px;
     display: flex;
-    padding-top: 12px;
+    padding-top: 14px;
     
 }
 
@@ -498,8 +520,8 @@ body{
 
 }
 
-.page-item li{
-    width: 48px;
+.page-item li a{
+    width: 40px;
     height: 48px;
     margin-right: 10px;
     margin-left: 10px;
@@ -509,24 +531,31 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
+    text-decoration:none;
+}
+
+.page-item1 li a{
+    color: white;
 }
 
 .end-page{
-    width: 1296px;
-    height: 440px;
+    max-width:1320px;
+    padding:0 12px;
+    margin:0 auto;
 }
 
 
 .end{
-    width: 1296px;
-    height: 332px;
+    max-width:1320px;
+    padding:0 12px;
+    margin:0 auto;
+    padding-top: 132px;
+    padding-bottom: 132px;
     background: #000;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 80px 0px;
-    margin-left: 312px;
 }
 
 .end h2{
@@ -548,7 +577,7 @@ body{
     margin-left: 10px;
 }
 
-.end p{
+.end a{
     width: 170px;
     height: 60px;
     font-family: 'Noto Sans TC';
@@ -561,54 +590,69 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
+    text-decoration: none;
 }
 
 .end1{
-    width: 1296px;
-    height: 280px;
-    left: 312px;
+    max-width:1320px;
+    padding:0 12px;
+    margin:0 auto;
+    padding-top:100px;
+    padding-bottom:100px;
     border-top: 1px solid white;
-    margin-left: 312px;
-    padding-top: 80px;
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 
-.end1 ul li{
-    width: 160px;
-    height: 96px;
+.end1 ul li a{
+
     font-family: 'Noto Sans TC';
     font-style: normal;
     font-weight: 900;
     font-size: 80px;
     color:white;
+    text-decoration: none;
+}
 
+.end1 ul li{
+
+    padding-bottom:8px;
 }
 
 .end1 img{
+    padding-bottom: 100px;
     height: 40px;
     display: flex;
 }
 
 .end2{
-    width: 1296px;
-    height: 120px;
+    max-width:1320px;
+    padding:0 12px;
+    margin:0 auto;
+    padding-top: 50px;
+    padding-bottom: 50px;
     border-top: 1px solid white;
     color: white;
     font-weight: 700;
     font-size: 16px;
     font-family: 'Noto Sans TC';
     letter-spacing: 1px;
-    margin-left: 312px;
-    padding-top: 32px;
-    padding-bottom: 32px;
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 
 
-.end2 p{
+.end2 a{
+    color: #F2F2F2;
+    text-decoration: none;
+    padding-right: 10px;
+}
 
+.end2 img{
+    color: #F2F2F2;
+    margin-left: 10px;
 }
 
 .end2 ul{
