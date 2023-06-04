@@ -60,7 +60,20 @@ table {
 body{
     background: black;
     font-family: 'Noto Sans TC';
+    flex:1;
 }
+
+@media (max-width: 768px) {
+    /* 在屏幕寬度小於或等於768px時應用的樣式 */
+  }
+  
+  @media (min-width: 769px) and (max-width: 1024px) {
+    /* 在屏幕寬度介於769px和1024px之間時應用的樣式 */
+  }
+  
+  @media (min-width: 1025px) {
+    /* 在屏幕寬度大於或等於1025px時應用的樣式 */
+  }
 
 
 .home{
@@ -365,7 +378,6 @@ body{
 
 
 .commodity{
-
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -397,9 +409,6 @@ body{
 }*/
 
 
-.commodity p img{
-    display: inline;
-}
 
 
 .commodity ul{
@@ -424,6 +433,12 @@ body{
     padding-right: 16px;
     padding-left: 16px;
     margin-right: 20px;
+  }
+
+  .commodity li a:hover{
+    background:rgb(106, 21, 225);
+    color: white;
+    border-radius:30px;
   }
 
   .pd-page{
@@ -534,6 +549,12 @@ body{
     text-decoration:none;
 }
 
+.page-item ul li:hover{
+    background:rgb(106, 21, 225);
+    color:white;
+    border-radius: 10px;
+}
+
 .page-item1 li a{
     color: white;
 }
@@ -593,6 +614,10 @@ body{
     text-decoration: none;
 }
 
+.end a:hover{
+    background: rgb(106, 21, 225);
+}
+
 .end1{
     max-width:1320px;
     padding:0 12px;
@@ -648,6 +673,10 @@ body{
     color: #F2F2F2;
     text-decoration: none;
     padding-right: 10px;
+}
+
+.end2 a:hover{
+   color:rgb(106, 21, 225); 
 }
 
 .end2 img{
