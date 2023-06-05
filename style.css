@@ -551,7 +551,7 @@ body{
 }
 
 .page-item ul li a:hover{
-    background:rgb(106, 21, 225);
+    background:black;
     color:white;
     border-radius: 10px;
 }
