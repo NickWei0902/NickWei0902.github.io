@@ -364,6 +364,17 @@ body{
 
 }
 
+.search{
+    position: relative;
+}
+
+i.fa-solid {
+    position: absolute;
+    top: 26px;
+    left: 12px;
+    color: rgb(180, 176, 176);
+  }
+
 
 .underLineStyle{
     width: 1260px;
@@ -444,6 +455,7 @@ body{
   .pd-page{
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
   }
 
 
@@ -484,6 +496,24 @@ body{
     padding-left: 20px;
 }
 
+
+.pd1-img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    overflow: hidden;
+}
+
+.pd1-img img{
+    transition: .5s;
+    
+}
+
+.pd1-img:hover img{
+    transform: scale(1.2);
+    
+}
+
 .pd1-model{
     padding-top: 24px;
     padding-bottom: 24px;
@@ -503,6 +533,14 @@ body{
 
 
 }
+
+
+
+.inputWithin .icon { /*左邊圖示*/
+    position: absolute; 			
+    left: 3px;
+    top: calc(50% - 0.5em);
+  }
 
 .pd1-share{
     padding-top: 24px;
