@@ -733,3 +733,38 @@ i.fa-solid {
     padding-right: 20px;
 
 }
+
+@media (max-width: 768px) {
+  .header {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .menu {
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10px;
+  }
+
+  .menu li {
+    margin: 5px 0;
+  }
+
+  .title {
+    font-size: 1.5em;
+    text-align: center;
+  }
+
+  .content {
+    flex-direction: column;
+  }
+
+  .item {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+
+  .footer img {
+     width: 45%;
+  }
+}
