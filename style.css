@@ -767,4 +767,213 @@ i.fa-solid {
   .footer img {
      width: 45%;
   }
+
+  /* 超小螢幕 (手機) */
+@media (max-width: 575.98px) {
+    .header {
+      flex-direction: column;
+      text-align: center;
+    }
+    .menu {
+      flex-direction: column;
+      align-items: center;
+      margin-top: 1rem;
+    }
+    .menu li {
+      margin: 0.5rem 0;
+    }
+    .title {
+      font-size: 2.5rem;
+    }
+    .container h1 {
+      font-size: 1.5rem;
+      padding-bottom: 2rem;
+    }
+    .container p {
+      font-size: 2rem;
+    }
+    .content {
+      flex-direction: column;
+    }
+    .item {
+      width: 100%;
+      margin: 1rem 0;
+      padding: 1.5rem;
+    }
+    .footer img {
+      width: 100%;
+      height: auto;
+    }
+    .main_eva {
+      flex-direction: column;
+      align-items: center;
+      margin: 1rem 0;
+    }
+    .evaluate {
+      width: 100%;
+      max-width: 376px;
+      margin: 1rem 0;
+      padding: 1.5rem;
+    }
+    .commodity {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+    .commodity ul {
+      flex-direction: column;
+      align-items: flex-start;
+      padding-left: 0;
+    }
+    .commodity li {
+      margin: 0.5rem 0;
+    }
+    .commodity button {
+      margin-bottom: 1rem;
+      width: 100%;
+    }
+    .underLineStyle {
+      width: 100%;
+      margin-bottom: 1.5rem;
+      padding-left: 1rem;
+    }
+    .page-item ul {
+      margin-left: auto;
+      margin-right: auto;
+    }
+    .end1 {
+      flex-direction: column;
+      text-align: center;
+    }
+    .end1 ul {
+      flex-direction: column;
+      align-items: center;
+      padding-left: 0;
+      margin-bottom: 1rem;
+    }
+    .end1 img {
+      padding-bottom: 1rem;
+      width: 100%;
+      height: auto;
+    }
+    .end2 {
+      flex-direction: column;
+      text-align: center;
+    }
+    .end2 ul {
+      flex-direction: column;
+      padding-left: 0;
+      margin-right: auto;
+      margin-left: auto;
+    }
+    .end2 ul li {
+      padding-bottom: 0.5rem;
+    }
+  }
+  
+  /* 小螢幕 (平板) */
+  @media (min-width: 576px) and (max-width: 767.98px) {
+    .title {
+      font-size: 3rem;
+    }
+    .container h1 {
+      font-size: 1.75rem;
+      padding-bottom: 2rem;
+    }
+    .container p {
+      font-size: 2.5rem;
+    }
+    .item {
+      width: calc(50% - 2rem);
+      margin: 1rem;
+      padding: 1.5rem;
+    }
+    .commodity {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+    .commodity ul {
+      flex-direction: column;
+      align-items: flex-start;
+      padding-left: 0;
+    }
+    .commodity li {
+      margin: 0.5rem 0;
+    }
+    .commodity button {
+      margin-bottom: 1rem;
+      width: 100%;
+    }
+    .end1 {
+      flex-direction: column;
+      text-align: center;
+    }
+    .end1 ul {
+      flex-direction: column;
+      align-items: center;
+      padding-left: 0;
+      margin-bottom: 1rem;
+    }
+    .end2 {
+      flex-direction: column;
+      text-align: center;
+    }
+    .end2 ul {
+      flex-direction: column;
+      padding-left: 0;
+      margin-right: auto;
+      margin-left: auto;
+    }
+    .end2 ul li {
+      padding-bottom: 0.5rem;
+    }
+  }
+  
+  /* 中螢幕 (桌機) */
+  @media (min-width: 768px) and (max-width: 991.98px) {
+    .title {
+      font-size: 4rem;
+    }
+    .container h1 {
+      font-size: 2rem;
+      padding-bottom: 2rem;
+    }
+    .container p {
+      font-size: 3rem;
+    }
+    .item {
+      width: calc(50% - 2rem);
+      margin: 1rem;
+      padding: 1.5rem;
+    }
+    .commodity button {
+      width: auto;
+    }
+    .commodity ul {
+      flex-direction: row;
+      align-items: center;
+      padding-left: 0;
+    }
+     .commodity li {
+      margin: 0 0.5rem;
+    }
+  }
+  
+  /* 大螢幕 (桌機) */
+  @media (min-width: 992px) and (max-width: 1199.98px) {
+    .item {
+      width: calc(33.33% - 2rem);
+      margin: 1rem;
+      padding: 1.5rem;
+    }
+  }
+  
+  /* 超大螢幕 (大型桌機) */
+  @media (min-width: 1200px) {
+    .item {
+      width: calc(25% - 2rem);
+      margin: 1rem;
+      padding: 1.5rem;
+    }
+  }
+  
 }
